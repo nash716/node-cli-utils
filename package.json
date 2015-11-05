@@ -1,0 +1,17 @@
+{
+  "name": "cli-utils",
+  "version": "0.0.1",
+  "description": "cli-utils provides many useful functions, makes easier to create CLI with Node.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "nash <preflight.cc@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "colors": "^1.1.2",
+    "http-sync": "jkrems/http-sync#jk-nan-2",
+    "readline-sync": "^1.2.21",
+    "shelljs": "^0.5.3"
+  }
+}
