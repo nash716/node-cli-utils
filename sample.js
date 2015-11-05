@@ -31,7 +31,7 @@ process.on('uncaughtException', (err) => {
 console.log('Parsed Arguments:', argv);
 
 // HTTP Request
-console.log(httpReq('GET', 'http://localhost:1234/?some=data'));
+console.log(httpReq('GET', 'http://example.com/?some=data'));
 
 // Shell Command
 console.log(run('echo "I Love You!" | cowsay'))
